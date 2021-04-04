@@ -1,0 +1,51 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"Hello"
+			],
+			"responses": [
+				"Welcome, what would you like to order?"
+            ]
+		},
+        {
+            "tag": "burger order",
+            "patterns":[
+                "burger",
+                "may",
+                "can",
+                "order"
+            ],
+            "respones": [
+                "1 burger"
+                ]
+        },
+        {
+            "tag": "chicken order",
+            "patterns":[
+                "chicken",
+                "may",
+                "can",
+                "order"
+            ],
+            "respones": [
+                "1 order of chicken"
+                ]
+        },
+        {
+            "tag": "fries order",
+            "patterns":[
+                "fries",
+                "may",
+                "can",
+                "order"
+            ],
+            "respones": [
+                "1 order of fries"
+                ]
+        },
+	]
+}
