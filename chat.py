@@ -23,6 +23,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
+
 bot_name = "Zoey"
 print("Welcome, please make your order")
 while True:
@@ -31,15 +32,18 @@ while True:
 		break;
 	sentance = tokenize(sentance)
 	x = bag_of_words(sentance, all_words)
+	print(x)
 	x = x.reshape(1, x.shape[0])
+	print(x)
 	x = torch.from_numpy(x)
-	
+	print(x)
 	output = model(x)
-	_, predicted = torch.max(output, dim=0)
-	print(f"{predicted}")
+	print(x)
+	_, predicted = torch.max(output, dim=1)
+	print(predicted)
 	tag = tags[predicted.item()]
-	
-	for intent in intents["intents"]:
-		if tag == intent["tag"]:
-			choice = random.choice(intent["responses"])
-			print(f"{bot_name}: {choice}")
+	print(tag)
+#	for intent in intents["intents"]:
+#		if tag == intent["tag"]:
+#			choice = random.choice(intent["responses"])
+#			print(f"{bot_name}: {choice}")
