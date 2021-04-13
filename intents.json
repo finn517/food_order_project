@@ -7,45 +7,42 @@
 				"Hey",
 				"Hello"
 			],
-			"responses": [
-				"Welcome, what would you like to order?"
-            ]
+			"responses": ["Welcome, what would you like to order?"]
 		},
         {
             "tag": "burger order",
             "patterns":[
                 "burger",
-                "may",
-                "can",
-                "order"
+                "sandwich",
+                "hamburger",
+                "cheeseburger"
             ],
             "respones": [
-                "1 burger"
+                "burger"
                 ]
         },
         {
             "tag": "chicken order",
             "patterns":[
                 "chicken",
-                "may",
-                "can",
-                "order"
+                "tenders",
+                "fingers",
+                "drumsticks"
             ],
             "respones": [
-                "1 order of chicken"
+                "chicken"
                 ]
         },
         {
             "tag": "fries order",
             "patterns":[
                 "fries",
-                "may",
-                "can",
-                "order"
+                "french",
+                "potatoes"
             ],
             "respones": [
                 "1 order of fries"
                 ]
-        },
+        }
 	]
 }
