@@ -23,13 +23,14 @@ def printMenu(menu):
         print("Item number " + str(item.getId()) + " is " + item.getName() + " and costs $" + str(item.getCost()))
 
 # This method will add an item object to an order list
-def addItem(order, item):
+def addItem(order, menu, name):
+    item = getFromMenu(menu, name)
     order.append(item)
 
 # This method will remove an item object from an order list based on the items id
-def removeItem(order, id):
+def removeItem(order, name):
     for item in order:
-        if item.getId() == id:
+        if item.getName() == name:
             order.remove(item)
             break
 
@@ -39,6 +40,12 @@ def calcTotal(order):
     for item in order:
         total = total + float(item.getCost())
     return total
+
+# This method will grab an item from the menu based off of the name
+def getFromMenu(menu, name):
+    for item in menu:
+        if item.getName() == name:
+            return item
 
 # This method will get an item
 def getItem(order, id):
