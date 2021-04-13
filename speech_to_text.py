@@ -1,4 +1,3 @@
-
 import speech_recognition as sr
 
 def obtain_audio():
@@ -32,24 +31,22 @@ def iw():
     except sr.UnknownValueError:
         print("IBM Speech to Text could not understand audio")
 
-recognizer = sr.Recognizer()
+def get_speech():
+	recognizer = sr.Recognizer()
+	with sr.Microphone() as source:
+		
+		try:
+			print("Recording for 60 seconds")
+			audio_data = recognizer.listen(source,  timeout=180)
+			print("Done recording")
+	
+	
+	
+			print("Recognizing...")
+			# convert speech to text
+			text = recognizer.recognize_google(audio_data)
+			return text
+		except:
+			return "nothing"
 
-''' recording the sound '''
 
-with sr.Microphone() as source:
-    
-    try:
-        print("Recording for 60 seconds")
-        audio_data = recognizer.listen(source,  timeout=180)
-        print("Done recording")
-
-   
-
-        print("Recognizing...")
-        # convert speech to text
-        text = recognizer.recognize_google(audio_data)
-        print(text)
-    except:
-        print("you spoke nothing:)")
-    
-   
