@@ -1,3 +1,6 @@
+"""utils function that uses nltk to process given sentance
+code written by Finn Cook G01134138
+"""
 import nltk
 nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer

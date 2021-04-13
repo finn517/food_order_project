@@ -36,9 +36,9 @@ def get_speech():
 	with sr.Microphone() as source:
 		
 		try:
-			print("Recording for 60 seconds")
+#			print("Recording for 60 seconds")
 			audio_data = recognizer.listen(source,  timeout=180)
-			print("Done recording")
+#			print("Done recording")
 	
 	
 	
@@ -47,6 +47,6 @@ def get_speech():
 			text = recognizer.recognize_google(audio_data)
 			return text
 		except:
-			return "nothing"
+			return "bye"
 
 

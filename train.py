@@ -1,3 +1,6 @@
+"""file that trains neural network based off of json file
+code written by Finn Cook G01134138
+"""
 import json
 import importlib
 import torch
