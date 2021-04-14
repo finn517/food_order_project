@@ -11,17 +11,18 @@ import Items as it
 
 # Method to initialize an array of items which will be the menu
 def initMenu():
-    item1 = it.Item(1, "burger", 3.99)
-    item2 = it.Item(2, "chicken", 2.99)
-    item3 = it.Item(3, "fries", 1.99)
+    item1 = it.Item(1, "burger order", 3.99)
+    item2 = it.Item(2, "chicken order", 2.99)
+    item3 = it.Item(3, "fries order", 1.99)
     menu = [item1, item2, item3]
     return menu
 
 # This method will print the menu
 def printMenu(menu):
+    s = ""
     for item in menu:
-        print("Item number " + str(item.getId()) + " is " + item.getName() + " and costs $" + str(item.getCost()))
-
+        s = s + "Item number " + str(item.getId()) + " is " + item.getName() + " and costs $" + str(item.getCost())
+    return s
 # This method will add an item object to an order list
 def addItem(order, menu, name):
     item = getFromMenu(menu, name)
@@ -55,20 +56,9 @@ def getItem(order, id):
 
 # This method will print out the order along with the total cost
 def printOrder(order):
-    print("Here is your current order: ")
+    s = ""
+    s = s+"Here is your current order: "
     for item in order:
-        print(str(item.getId()) + " " + item.getName() + " $" + str(item.getCost()))
-    print("The total cost of the order is $" + str(calcTotal(order)))
-
-# This was mainly done for slight testing purposes
-'''def main():
-    order = []
-    menu = initMenu()
-    printMenu(menu)
-    addItem(order, menu[0])
-    addItem(order, menu[0])
-    addItem(order, menu[0])
-    printOrder(order)
-
-if __name__ == '__main__':
-    main()'''
+        s = s + str(item.getId()) + " " + item.getName() + " $" + str(item.getCost())
+    s = s + "The total cost of the order is $" + str(calcTotal(order))
+    return s
