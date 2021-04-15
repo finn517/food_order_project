@@ -1,11 +1,13 @@
 {
 	"intents": [
 		{
-			"tag": "greeting",
+			"tag": "quit",
 			"patterns": [
-				"Hi",
-				"Hey",
-				"Hello"
+				"bye",
+				"no",
+				"thank you",
+				"see you later",
+				"quit"
 			],
 			"responses": ["Welcome, what would you like to order?"]
 		},
