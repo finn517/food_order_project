@@ -40,7 +40,8 @@ def calcTotal(order):
     total = 0
     for item in order:
         total = total + float(item.getCost())
-    return total
+    final_total = round(total, 2)
+    return final_total
 
 # This method will grab an item from the menu based off of the name
 def getFromMenu(menu, name):
