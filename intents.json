@@ -3,7 +3,6 @@
 		{
 			"tag": "quit",
 			"patterns": [
-				"bye",
 				"no",
 				"thank you",
 				"see you later",
@@ -39,8 +38,7 @@
             "tag": "fries order",
             "patterns":[
                 "fries",
-                "french",
-                "potatoes"
+                "french"
             ],
             "respones": [
                 "1 order of fries"

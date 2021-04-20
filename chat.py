@@ -35,6 +35,10 @@ def process(s):
 	x = torch.from_numpy(x)
 	output = model(x)
 	_, predicted = torch.max(output, dim=1)
+	probability = torch.softmax(output, dim=1)
+	probability = probability[0][predicted.item()]
+	if (probability < .45):
+		return "sorry"
 	tag = tags[predicted.item()]
 	return tag
 #	for intent in intents["intents"]:
