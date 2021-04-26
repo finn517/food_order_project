@@ -1,0 +1,40 @@
+Testing script for program with user Jose Uribe:
+Welcome, what would you like to order?
+Recognizing...
+speech input: some fries please
+Onefries order
+Is there anything else you would like to order?
+Recognizing...
+speech input: can I get a burger can I get a burger
+Oneburger order
+Is there anything else you would like to order?
+Recognizing...
+speech input: can I get fries
+Onefries order
+Is there anything else you would like to order?
+Recognizing...
+speech input: can I order chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: hot dog
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: can I get pizza
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: can I have a burger please
+Oneburger order
+Is there anything else you would like to order?
+Recognizing...
+speech input: yeah I have a burger
+Oneburger order
+Is there anything else you would like to order?
+Recognizing...
+speech input: no thank you
+Your Total is 21 dollars and 39 cents.
+Thank you for ordering!, Have a nice day!
