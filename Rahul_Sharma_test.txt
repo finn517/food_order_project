@@ -1,0 +1,56 @@
+Welcome, what would you like to order?
+Recognizing...
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: Mr chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: Mr chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: even more chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: an extra flock of chickens
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: just one more order of chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: a side of fries
+Onefries order
+Is there anything else you would like to order?
+Recognizing...
+speech input: pterodactyl
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: Jeffrey Epstein
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: Donald Trump and Melania
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: Jose Uribe
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: your mom
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: asada fries please
+Onefries order
+Is there anything else you would like to order?
+Recognizing...
+speech input: no thank you
+Here is your current order: 2 chicken order $2.99,2 chicken order $2.99,2 chicken order $2.99,2 chicken order $2.99,2 chicken order $2.99,2 chicken order $2.99,3 fries order $1.99,3 fries order $1.99,The total cost of the order is $21.92
+Thank you for ordering!, Have a nice day!
