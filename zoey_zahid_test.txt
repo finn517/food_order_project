@@ -1,0 +1,35 @@
+Welcome, what would you like to order?
+Recognizing...
+speech input: have a sandwich please
+Oneburger order
+Is there anything else you would like to order?
+Recognizing...
+speech input: chicken tenders
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: my friend
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: chicken
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: me amigo
+sorry that item is not on the menu, what would you like to order?
+Recognizing...
+speech input: french fries
+Onefries order
+Is there anything else you would like to order?
+Recognizing...
+speech input: chicken fingers
+Onechicken order
+Is there anything else you would like to order?
+Recognizing...
+speech input: a burger
+Oneburger order
+Is there anything else you would like to order?
+Recognizing...
+speech input: no thank you my amigo
+Here is your current order: 1 burger order $3.99,2 chicken order $2.99,2 chicken order $2.99,3 fries order $1.99,2 chicken order $2.99,1 burger order $3.99,The total cost of the order is $18.94
+Thank you for ordering!, Have a nice day!
